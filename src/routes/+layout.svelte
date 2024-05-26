@@ -25,7 +25,9 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<div class="text">
+			<p>We’re still building and not yet open for business. But we’re open for inquiries and collaboration hi@matter.ventures</p>
+		</div>
 	</footer>
 </div>
 

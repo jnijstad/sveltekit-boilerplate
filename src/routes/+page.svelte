@@ -1,32 +1,44 @@
-<script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
-</script>
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="TrueMatter Ventures" />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
+<section class="intro">
+	<h1> Building brands &amp; technology for positive impact.
 	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+	<p>TrueMatter is a venture studio building exceptional well designed direct to consumer brands and product experiences for a positive impact.
+		<br>
+		We have worked on thousands of brands and business. From ambitious early start-ups to  leading international conglomerates.
+		<br>
+		With TrueMatter we aim to use our expertise in business innovation, branding and technology to create the next generation of entrepreneurs and brands that consumers and the  world will love.
+	</p>
 </section>
+
+<div class="row pillars">
+	<div class="pillar">
+		<header>
+			<h2>Ventures</h2>
+			<span>001</span>
+		</header>
+		<p>Brands and products built in-house or through our incubated through our fund.</p>
+	</div>
+	<div class="pillar">
+		<header>
+			<h2>Studio</h2>
+			<span>002</span>
+		</header>
+		<p>Operational & back-office ecosystem for our portfolio so founders can focus on product.</p>
+	</div>
+	<div class="pillar">
+		<header>
+			<h2>Accelerator</h2>
+			<span>003</span>
+		</header>
+		<p>The 0 to scale bootcamp for ambitious founders with a passion for design and impact</p>
+	</div>
+	
+</div>
 
 <style>
 	section {
