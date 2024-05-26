@@ -9,7 +9,7 @@
 	</h1>
 	<p>TrueMatter is a venture studio building exceptional well designed direct to consumer brands and product experiences for a positive impact.
 		<br>
-		We have worked on thousands of brands and business. From ambitious early start-ups to  leading international conglomerates.
+		We have worked on hundreds of brands and businesses. From ambitious early start-ups to  leading international conglomerates.
 		<br>
 		With TrueMatter we aim to use our expertise in business innovation, branding and technology to create the next generation of entrepreneurs and brands that consumers and the  world will love.
 	</p>
