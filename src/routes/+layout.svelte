@@ -26,7 +26,8 @@
 
 	<footer>
 		<div class="text">
-			<p>We’re still building and not yet open for business. But we’re open for inquiries and collaboration hi@matter.ventures</p>
+			<h2>TrueMatter™</h2>
+			<p>We’re still building and not yet open for business. <br> But we’re open for inquiries and collaboration hi@matter.ventures</p>
 		</div>
 	</footer>
 </div>

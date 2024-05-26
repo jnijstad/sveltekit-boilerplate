@@ -94,7 +94,7 @@ button:focus:not(:focus-visible) {
 }
 
 .intro {
-	width: 600px;
+	max-width: 600px;
 	margin: 100px auto 0 auto;
 	text-align: center;
 }
@@ -102,7 +102,7 @@ button:focus:not(:focus-visible) {
 .row.pillars {
 	margin-top: 100px;
 	margin-bottom: 100px;
-	display: flex;
+	/* display: flex; */
 	/* flex-wrap: wrap; */
 	justify-content: center;
 	/* flex-wrap: wrap; */
@@ -113,6 +113,7 @@ button:focus:not(:focus-visible) {
 .pillar {
 	background-color: #101010;
 	padding: 20px;
+	margin-bottom: 25px;
 	position: relative;
 	/* width: 200px; */
 	/* float: left; */
@@ -135,6 +136,10 @@ button:focus:not(:focus-visible) {
 	font-size: 14px;
 }
 
+.pillar p {
+	font-size: 0.9rem;
+}
+
 footer {
 	font-size: 0.8rem;
 	text-align: center;
@@ -148,6 +153,9 @@ footer p {
 @media (min-width: 720px) {
 	h1 {
 		font-size: 2.4rem;
+	}
+	.row.pillars {
+		display: flex;
 	}
 }
 
